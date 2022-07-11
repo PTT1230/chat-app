@@ -1,4 +1,27 @@
 <div class="wrapper">
-  <%= render "side_bar" %>
-  <%= render "main_chat" %>
+  <div class="side">
+    <%= render "side_bar" %>
+    <div class="side_top">
+      <div class="user_name">
+        <a href="#">TATA</a>
+      </div>
+      <div class="create_chat">
+        <a href="#">チャットを作成する</a>
+      </div>
+    </div>
+    <div class ="chat_side">
+      <div class="chat_room">
+        <a href="#">ARMYROOM</a>
+      </div>
+      <div class="chat_room">
+        <a href="#">ARMYROOM2</a>
+      </div>
+    </div>
+  </div>
+  <div class="chat">
+    <%= render "main_chat" %>
+    <div class="chat_top"></div>
+    <div class="chat_main"></div>
+    <div class="chat_bottom"></div>
+  </div>
 </div>
